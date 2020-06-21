@@ -1,0 +1,38 @@
+age=10
+print("年龄%d岁"%age)
+
+age +=1
+print("年龄%d岁"%age)
+
+age +=1
+print("年龄%d岁"%age)
+
+
+print("我的年龄%s，我的国家%s"%("16","中国"))
+
+print("www","baidu","com",sep=".")
+
+print("hello",end="")
+print("word",end="\t")
+print("hello",end="\n")
+print("hello",end="\n" )
+password = int(input("please enter your pin"))
+print("your pin is:",password)
+print(type(password))
+
+
+genden = 1 #1 this is man 0 is woman
+lone = 0 #1 this is lone 0 is unlone
+
+if genden == 1 :
+    print("this is a man")
+    if lone == 1 :
+        print("this is lone")
+    else:
+        print("this is unlone")
+else:
+    print("this is a woman")
+    if lone == 1 :
+        print("this is lone")
+    else:
+        print("this is unlone")
