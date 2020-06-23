@@ -1,0 +1,56 @@
+for i in range(len(a)):
+    print(i,a[i])
+n = 100
+sum = 0
+counter = 1
+while counter <=100:
+    sum = counter + sum
+    counter += 1
+    print(sum)
+
+
+n = 100
+sum = 0
+counter = 1
+while counter <= n:
+    sum = sum + counter
+    counter += 1for i in range(5):
+    print(i)
+
+a = ["aa","bb","cc","dd"]
+for i in range(len(a)):
+    print(a[i],i)
+i = 0
+while i < 5:
+    print("这是第%d次循环"%(i+1))
+    print("i=%d"%i)
+    i += 1
+
+
+n = 100
+sum = 0
+conter = 1
+while conter <=n:
+    sum = conter + n
+    print("sum is:%d"%sum)
+    conter += 1
+
+
+name = "chongqing"
+for x in name:
+    print(x,end="\t")
+
+a = ["aa","bb","cc","dd"]
+    print("this is %d time,the anser is %d"%(counter, sum))
+
+sum = 0
+for n in range(1,10,1):
+    w = 0
+while w <= 9:
+    sum = n * w
+    w += 1
+    print("%d*%d=%d"%(n,w,sum))
+'''
+for n in range (1,10,1):
+    for w in range (1,10,1):
+        print("%d*%d=%d"%(n,w,n*w),end="\t")
