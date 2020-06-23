@@ -61,3 +61,29 @@ del musicname[0]
 musicname.pop()
 for name in musicname :
     print("after deleting:",name)
+musicname.pop()                                                                #弹出最后一个
+for name in musicname :
+    print("after deleting:",name)
+'''
+
+'''
+findname = input("enter your name:")
+if findname in musicname:                                                    #and not in
+    print("you find it")
+else:print("you can't find it")
+'''
+
+'''
+mylist = ["a","b","c","d"]
+print(mylist.index("a",0,4))                                                #查找位置
+'''
+
+'''
+mylist = ["a","b","c","d","a"]
+print(mylist.count("a"))                                                    #查找个数
+'''
+a = [1,3,2,4]
+print(a.reverse(),a)                                                        #反转列表元素
+print(a.sort(),a)                                                           #升序
+print(a.sort(reverse=True),a)                                               #降序
+    
