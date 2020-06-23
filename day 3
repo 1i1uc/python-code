@@ -1,0 +1,63 @@
+'''
+my_str='i\'m a student'
+print(my_str)
+
+print("i'm a student",end="\n")
+print("i'm a student")
+'''
+'''
+str = "chongqing"
+print(str[0:5])
+print(str[5:],end="\n")
+print(str + ",你好")
+print(r"i'm a\n student")
+'''
+'''
+
+namelist = ["wang","li","zhang","zhao"]
+'''
+
+'''
+print(namelist[0])
+'''
+'''
+for name in namelist:
+    print(name)
+
+length = len(namelist)
+i = 0
+while i < length:
+    print(namelist[i])
+    i += 1
+'''
+'''
+
+for name in namelist:
+    print(name)
+nametemp = input("enter your name:")
+namelist.append(nametemp)                           #末尾增加元素
+for name in namelist:
+    print(name)
+'''
+'''
+
+a = [1,2]
+b = [3,4]
+a.append(b)
+print(a)
+
+a.extend(b)                                         #b list element add in a list
+print(a) 
+'''
+'''
+a = [0,1,2,3]
+a.insert(1,3)                                          #1 = subscript, 3 = object
+print(a)
+'''
+musicname = ["hop","blue","lost_rivers"]
+for name in musicname :
+    print(name)
+del musicname[0]
+musicname.pop()
+for name in musicname :
+    print("after deleting:",name)
