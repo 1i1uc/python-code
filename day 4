@@ -1,0 +1,14 @@
+import random#引入随机库
+offices = [[],[],[]]#建办公室组
+names = ["a","b","c","d","e","f","g","h"]#建老师们
+for name in names:#遍历老师们
+    index = random.randint(0,2)#新建每间办公室的门牌号
+    offices[index].append(name)#将每个老师移进对应门牌号的办公室
+i = 1
+for office in offices:#遍历办公室组里的办公室
+    print("第%d办公室的人数为%d"%(i,len(office)))
+    i += 1
+    for name in office:#遍历办公室的人名
+        print("%s"%name,end="\t")
+    print("\n")
+    print("-"*20)
