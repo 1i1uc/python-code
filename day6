@@ -1,0 +1,50 @@
+#增
+tup1 = (12,34,56)
+tup2 = ("ab","cd","ef")
+tup = tup1 + tup2
+print(tup)
+
+#删
+#del tup
+
+#dict
+#增
+'''
+info = {"name":"myself","age":16}
+print(info["name"])
+
+print(info["gender"])        直接访问会报错
+
+print(info.get("gender"))    使用get方法没有找到对应的键，输出none
+print(info.get("gender","n")    输出特定值
+
+newid = input("enter your number:") 添加id元素
+info["id"] = newid
+print(info)
+'''
+#删
+'''del info["name"]
+print(info)                     使用del删除了name键
+info.clear()                    使用clear清空元素'''
+
+#改
+'''info["age"] = 20
+print(info)'''
+
+#查
+'''
+print(info.keys())                  得到所有键
+for key in info.keys:               遍历所有键
+    print(key)
+
+print(info.values())                得到所有值
+for value in info.values:           遍历所有值
+    print(value)
+
+print(info.items())                 得到所有项
+for key,value in info.items:        遍历所有项
+    print("key=%s,value=%s"%(key,value))
+
+mylist = ["a","b","c","d"]
+for i,x in enumerate(mylist):       使用枚举函数既得到下标又得到元素
+    print(i,x)'''
